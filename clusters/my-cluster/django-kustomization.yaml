@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 30s
-  path: ./,./nginx
+  path: ./
   prune: true
   sourceRef:
     kind: GitRepository
